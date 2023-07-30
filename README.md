@@ -4,7 +4,7 @@ The Mano machine is a computer theoretically described by M. Morris Mano. It con
 #**Instructions Set** 
 | Instruction        |  Hexadecimal Code | Description  |
 | :-------------: |:-------------:| :-----:|
-|**Memorey Referrence Instructions**|
+||**Memorey Referrence Instructions**||
 |AND|0XXX 8XXX|And memory word to AC|
 |ADD|1XXX 9XXX|Add memory word to AC|
 |LDA|2XXX AXXX|Load AC from memory|
@@ -32,7 +32,3 @@ The Mano machine is a computer theoretically described by M. Morris Mano. It con
 |SKO|F100|next instruction on Output Flag|
 |ION|F080|Interrupt on|
 |IOF|F040|Interrupt off|
-
-lol
-
-[cols="^,^,^"] \n|=== \n|Layer1 |Layer2 |Layer3 \n \n.4+.^|L1 Name .2+.^|L2 Name A |L3 Name A \n|L3 Name B \n.2+.^|L2 Name B |L3 Name C \n|L3 Name D \n \n|===

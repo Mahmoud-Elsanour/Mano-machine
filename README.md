@@ -4,14 +4,14 @@ The Mano machine is a computer theoretically described by M. Morris Mano. It con
 #**Instructions Set** 
 | Instruction        |  Hexadecimal Code | Description  |
 | :-------------: |:-------------:| :-----:|
-|---------------------------------------|**Memorey Referrence Instructions**|---------------------------------------|
-|AND|0XXX 8XXX|And memory word to AC|
-|ADD|1XXX 9XXX|Add memory word to AC|
-|LDA|2XXX AXXX|Load AC from memory|
-|STA|3XXX BXXX|Store content of AC into memory|
-|BUN|3XXX CXXX|Branch unconditionally|
-|BSA|6XXX DXXX|Branch and save return address|
-|ISZ|7XXX EXXX|Increment and skip if zero|
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~|**Memorey Referrence Instructions**|---------------------------------------|
+|AND|0XXX    8XXX|And memory word to AC|
+|ADD|1XXX    9XXX|Add memory word to AC|
+|LDA|2XXX    AXXX|Load AC from memory|
+|STA|3XXX    BXXX|Store content of AC into memory|
+|BUN|3XXX    CXXX|Branch unconditionally|
+|BSA|6XXX    DXXX|Branch and save return address|
+|ISZ|7XXX    EXXX|Increment and skip if zero|
 |---------------------------------------|**Register Referrence Instructions**|---------------------------------------|
 |CLA|7800|Clear AC|
 |CLE|7400|Clear E|

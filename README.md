@@ -2,7 +2,17 @@
 ### **Mano Basic Computer**
 The Mano machine is a computer theoretically described by M. Morris Mano. It contains a central processing unit, random access memory, and an input-output bus.
 ***
+### **Verilog**
+Verilog is a hardware description language (HDL) used to design and simulate digital systems. Verilog is similar to other HDLs, such as VHDL, but has a simpler syntax.
+***
+### **Verilog Implementation of the Mano Machine**
+The Mano machine can be broken down into several modules, such as the ALU, memory, registers, flip-flops and I/O devices. Each module can be implemented in Verilog as a separate entity. The modules can then be interconnected to form the complete system.
+***
+### **Modules**
+The Verilog modules used are:
+***
 ### **Instructions Set** 
+This implementation can excute all the instructions that was descriped by M. Morris Mano
 | Instruction        |  Hexadecimal Code | Description  |
 | :-------------: |:-------------:| :-----:|
 |~~~~~~~~~~~~~~~~~~~~~~~~~~~|**Memorey Referrence Instructions**|~~~~~~~~~~~~~~~~~~~~~~~~~~~|
@@ -33,3 +43,8 @@ The Mano machine is a computer theoretically described by M. Morris Mano. It con
 |SKO|F100|next instruction on Output Flag|
 |ION|F080|Interrupt on|
 |IOF|F040|Interrupt off|
+***
+### **Memory Program**
+***
+### **Conclusion**
+This Project was made to?

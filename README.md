@@ -2,11 +2,11 @@
 The Mano machine is a computer theoretically described by M. Morris Mano. It contains a central processing unit, random access memory, and an input-output bus.
 
 We are a team of 5 students who worked on this project as part of our Microcontrollers Arcitechure Course:
-- [Abdallah Adel]()
-- [Hamdin Gamal]()
-- [Mahmoud El-Sanour]()
-- [Ziad Mohamed]()
-- [Ziad Sameh]()
+- [Abdallah Adel](https://github.com/AbdallahAdelPro)
+- [Hamdin Gamal](https://github.com/Hamdingamal)
+- [Mahmoud El-Sanour](https://github.com/Mahmoud-Elsanour)
+- [Ziad Mohamed](https://github.com/ziad232)
+- [Ziad Sameh](https://github.com/ziad036)
   
 We have implemented the Mano machine in Verilog and in Proteus 
 ***

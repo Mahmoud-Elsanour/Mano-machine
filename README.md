@@ -113,4 +113,5 @@ Note: the built-in program can be removed or changed as it's not part of the mac
 ***
 ### **Useful Resources**
 [Verilog Tutorial](https://www.chipverify.com/verilog/verilog-tutorial)
+
 [Mano Machine](https://en.wikipedia.org/wiki/Mano_machine)

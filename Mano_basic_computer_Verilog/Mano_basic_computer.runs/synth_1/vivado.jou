@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat May 13 23:22:15 2023
+# Process ID: 13860
+# Current directory: C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.runs/synth_1
+# Command line: vivado.exe -log mano_basic_computer.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mano_basic_computer.tcl
+# Log file: C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.runs/synth_1/mano_basic_computer.vds
+# Journal file: C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mano_basic_computer.tcl -notrace

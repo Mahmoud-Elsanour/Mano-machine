@@ -1,0 +1,2136 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue May 16 00:02:23 2023
+# Process ID: 28080
+# Current directory: C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27284 C:\Users\ItShop\OneDrive\Documents\Vivado\Mano_basic_computer\Mano_basic_computer.xpr
+# Log file: C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/vivado.log
+# Journal file: C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 808.504 ; gain = 173.059
+launch_simulation -simset [get_filesets sim_2 ]
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.sim/sim_2/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_2'
+INFO: [SIM-utils-54] Inspecting design source files for 'mano_basic_computer_tb' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.sim/sim_2/behav/xsim'
+"xvlog --incr --relax -prj mano_basic_computer_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/Register_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_12
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/reg_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/selection_line.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module selection_line
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/sequence_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sequence_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/Mano Basic Computer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mano_basic_computer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/adder_and_logic_circuit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_and_logic_circuit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sim_2/new/instruction_1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mano_basic_computer_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.sim/sim_2/behav/xsim'
+"xelab -wto 912a2e6ed4814d38b0b17adffd410bbc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mano_basic_computer_tb_behav xil_defaultlib.mano_basic_computer_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 912a2e6ed4814d38b0b17adffd410bbc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mano_basic_computer_tb_behav xil_defaultlib.mano_basic_computer_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 16 for port 'b' [C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/Mano Basic Computer.v:95]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.decoder
+Compiling module xil_defaultlib.reg_12
+Compiling module xil_defaultlib.reg_16
+Compiling module xil_defaultlib.Mem
+Compiling module xil_defaultlib.selection_line
+Compiling module xil_defaultlib.adder_and_logic_circuit
+Compiling module xil_defaultlib.sequence_counter
+Compiling module xil_defaultlib.mano_basic_computer
+Compiling module xil_defaultlib.mano_basic_computer_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mano_basic_computer_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.sim/sim_2/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mano_basic_computer_tb_behav -key {Behavioral:sim_2:Functional:mano_basic_computer_tb} -tclbatch {mano_basic_computer_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source mano_basic_computer_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+At: T[          1]
+At: D[  1]
+AR: 000
+PC: 000
+DR: 0000
+AC: 0000
+IR: 0000
+------------------------------------------------
+At: T[          2]
+At: D[  1]
+AR: 000
+PC: 000
+DR: 0000
+AC: 0000
+IR: 0000
+------------------------------------------------
+At: T[          3]
+At: D[  1]
+AR: 000
+PC: 000
+DR: 0000
+AC: 0000
+IR: 0000
+------------------------------------------------
+At: T[          4]
+At: D[  4]
+AR: 000
+PC: 001
+DR: 0000
+AC: 0000
+IR: a00b
+------------------------------------------------
+At: T[          5]
+At: D[  4]
+AR: 00b
+PC: 001
+DR: 0000
+AC: 0000
+IR: a00b
+------------------------------------------------
+At: T[          6]
+At: D[  4]
+AR: 00a
+PC: 001
+DR: 0000
+AC: 0000
+IR: a00b
+------------------------------------------------
+At: T[          7]
+At: D[  4]
+AR: 00a
+PC: 001
+DR: f102
+AC: 0000
+IR: a00b
+------------------------------------------------
+At: T[          8]
+At: D[  4]
+AR: 00a
+PC: 001
+DR: f102
+AC: f102
+IR: a00b
+------------------------------------------------
+At: T[          9]
+At: D[  4]
+AR: 00a
+PC: 001
+DR: f102
+AC: f102
+IR: a00b
+------------------------------------------------
+At: T[         10]
+At: D[  4]
+AR: 001
+PC: 001
+DR: f102
+AC: f102
+IR: a00b
+------------------------------------------------
+At: T[         11]
+At: D[  2]
+AR: 001
+PC: 002
+DR: f102
+AC: f102
+IR: 1009
+------------------------------------------------
+At: T[         12]
+At: D[  2]
+AR: 009
+PC: 002
+DR: f102
+AC: f102
+IR: 1009
+------------------------------------------------
+At: T[         13]
+At: D[  2]
+AR: 009
+PC: 002
+DR: f102
+AC: f102
+IR: 1009
+------------------------------------------------
+At: T[         14]
+At: D[  2]
+AR: 009
+PC: 002
+DR: 0f0f
+AC: f102
+IR: 1009
+------------------------------------------------
+At: T[         15]
+At: D[  2]
+AR: 009
+PC: 002
+DR: 0f0f
+AC: 0011
+IR: 1009
+------------------------------------------------
+At: T[         16]
+At: D[  2]
+AR: 009
+PC: 002
+DR: 0f0f
+AC: 0011
+IR: 1009
+------------------------------------------------
+At: T[         17]
+At: D[  2]
+AR: 002
+PC: 002
+DR: 0f0f
+AC: 0011
+IR: 1009
+------------------------------------------------
+At: T[         18]
+At: D[128]
+AR: 002
+PC: 003
+DR: 0f0f
+AC: 0011
+IR: 7200
+------------------------------------------------
+At: T[         19]
+At: D[128]
+AR: 200
+PC: 003
+DR: 0f0f
+AC: 0011
+IR: 7200
+------------------------------------------------
+At: T[         20]
+At: D[128]
+AR: 200
+PC: 003
+DR: 0f0f
+AC: ffee
+IR: 7200
+------------------------------------------------
+At: T[         21]
+At: D[128]
+AR: 200
+PC: 003
+DR: 0f0f
+AC: ffee
+IR: 7200
+------------------------------------------------
+At: T[         22]
+At: D[128]
+AR: 003
+PC: 003
+DR: 0f0f
+AC: ffee
+IR: 7200
+------------------------------------------------
+At: T[         23]
+At: D[  8]
+AR: 003
+PC: 004
+DR: 0f0f
+AC: ffee
+IR: 300c
+------------------------------------------------
+At: T[         24]
+At: D[  8]
+AR: 00c
+PC: 004
+DR: 0f0f
+AC: ffee
+IR: 300c
+------------------------------------------------
+At: T[         25]
+At: D[  8]
+AR: 00c
+PC: 004
+DR: 0f0f
+AC: ffee
+IR: 300c
+------------------------------------------------
+At: T[         26]
+At: D[  8]
+AR: 00c
+PC: 004
+DR: 0f0f
+AC: ffee
+IR: 300c
+------------------------------------------------
+At: T[         27]
+At: D[  8]
+AR: 00c
+PC: 004
+DR: 0f0f
+AC: ffee
+IR: 300c
+------------------------------------------------
+At: T[         28]
+At: D[  8]
+AR: 004
+PC: 004
+DR: 0f0f
+AC: ffee
+IR: 300c
+------------------------------------------------
+At: T[         29]
+At: D[ 64]
+AR: 004
+PC: 005
+DR: 0f0f
+AC: ffee
+IR: 6020
+------------------------------------------------
+At: T[         30]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0f0f
+AC: ffee
+IR: 6020
+------------------------------------------------
+At: T[         31]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0f0f
+AC: ffee
+IR: 6020
+------------------------------------------------
+At: T[         32]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0000
+AC: ffee
+IR: 6020
+------------------------------------------------
+At: T[         33]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0001
+AC: ffef
+IR: 6020
+------------------------------------------------
+At: T[         34]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0001
+AC: ffef
+IR: 6020
+------------------------------------------------
+At: T[         35]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0001
+AC: ffef
+IR: 6020
+------------------------------------------------
+At: T[         36]
+At: D[ 64]
+AR: 005
+PC: 005
+DR: 0001
+AC: ffef
+IR: 6020
+------------------------------------------------
+At: T[         37]
+At: D[128]
+AR: 005
+PC: 006
+DR: 0001
+AC: ffef
+IR: 7400
+------------------------------------------------
+At: T[         38]
+At: D[128]
+AR: 400
+PC: 006
+DR: 0001
+AC: ffef
+IR: 7400
+------------------------------------------------
+At: T[         39]
+At: D[128]
+AR: 400
+PC: 006
+DR: 0001
+AC: ffef
+IR: 7400
+------------------------------------------------
+At: T[         40]
+At: D[128]
+AR: 400
+PC: 006
+DR: 0001
+AC: ffef
+IR: 7400
+------------------------------------------------
+At: T[         41]
+At: D[128]
+AR: 006
+PC: 006
+DR: 0001
+AC: ffef
+IR: 7400
+------------------------------------------------
+FATAL_ERROR: Iteration limit 10000 is reached. Possible zero delay oscillation detected where simulation time can not advance. Please check your source code. Note that the iteration limit can be changed using switch -maxdeltaid.
+Time: 405 ns  Iteration: 10000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mano_basic_computer_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 867.305 ; gain = 38.629
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation -simset [get_filesets sim_2 ]
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.sim/sim_2/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_2'
+INFO: [SIM-utils-54] Inspecting design source files for 'mano_basic_computer_tb' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.sim/sim_2/behav/xsim'
+"xvlog --incr --relax -prj mano_basic_computer_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/Register_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_12
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/reg_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/selection_line.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module selection_line
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/sequence_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sequence_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/Mano Basic Computer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mano_basic_computer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/adder_and_logic_circuit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_and_logic_circuit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sim_2/new/instruction_1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mano_basic_computer_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.sim/sim_2/behav/xsim'
+"xelab -wto 912a2e6ed4814d38b0b17adffd410bbc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mano_basic_computer_tb_behav xil_defaultlib.mano_basic_computer_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 912a2e6ed4814d38b0b17adffd410bbc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mano_basic_computer_tb_behav xil_defaultlib.mano_basic_computer_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 16 for port 'b' [C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/Mano Basic Computer.v:95]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.decoder
+Compiling module xil_defaultlib.reg_12
+Compiling module xil_defaultlib.reg_16
+Compiling module xil_defaultlib.Mem
+Compiling module xil_defaultlib.selection_line
+Compiling module xil_defaultlib.adder_and_logic_circuit
+Compiling module xil_defaultlib.sequence_counter
+Compiling module xil_defaultlib.mano_basic_computer
+Compiling module xil_defaultlib.mano_basic_computer_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mano_basic_computer_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.sim/sim_2/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mano_basic_computer_tb_behav -key {Behavioral:sim_2:Functional:mano_basic_computer_tb} -tclbatch {mano_basic_computer_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source mano_basic_computer_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+At: T[          1]
+At: D[  1]
+AR: 000
+PC: 000
+DR: 0000
+AC: 0000
+IR: 0000
+------------------------------------------------
+At: T[          2]
+At: D[  1]
+AR: 000
+PC: 000
+DR: 0000
+AC: 0000
+IR: 0000
+------------------------------------------------
+At: T[          3]
+At: D[  1]
+AR: 000
+PC: 000
+DR: 0000
+AC: 0000
+IR: 0000
+------------------------------------------------
+At: T[          4]
+At: D[  4]
+AR: 000
+PC: 001
+DR: 0000
+AC: 0000
+IR: a00b
+------------------------------------------------
+At: T[          5]
+At: D[  4]
+AR: 00b
+PC: 001
+DR: 0000
+AC: 0000
+IR: a00b
+------------------------------------------------
+At: T[          6]
+At: D[  4]
+AR: 00a
+PC: 001
+DR: 0000
+AC: 0000
+IR: a00b
+------------------------------------------------
+At: T[          7]
+At: D[  4]
+AR: 00a
+PC: 001
+DR: f102
+AC: 0000
+IR: a00b
+------------------------------------------------
+At: T[          1]
+At: D[  4]
+AR: 00a
+PC: 001
+DR: f102
+AC: f102
+IR: a00b
+------------------------------------------------
+At: T[          2]
+At: D[  4]
+AR: 00a
+PC: 001
+DR: f102
+AC: f102
+IR: a00b
+------------------------------------------------
+At: T[          3]
+At: D[  4]
+AR: 001
+PC: 001
+DR: f102
+AC: f102
+IR: a00b
+------------------------------------------------
+At: T[          4]
+At: D[  2]
+AR: 001
+PC: 002
+DR: f102
+AC: f102
+IR: 1009
+------------------------------------------------
+At: T[          5]
+At: D[  2]
+AR: 009
+PC: 002
+DR: f102
+AC: f102
+IR: 1009
+------------------------------------------------
+At: T[          6]
+At: D[  2]
+AR: 009
+PC: 002
+DR: f102
+AC: f102
+IR: 1009
+------------------------------------------------
+At: T[          7]
+At: D[  2]
+AR: 009
+PC: 002
+DR: 0f0f
+AC: f102
+IR: 1009
+------------------------------------------------
+At: T[          1]
+At: D[  2]
+AR: 009
+PC: 002
+DR: 0f0f
+AC: 0011
+IR: 1009
+------------------------------------------------
+At: T[          2]
+At: D[  2]
+AR: 009
+PC: 002
+DR: 0f0f
+AC: 0011
+IR: 1009
+------------------------------------------------
+At: T[          3]
+At: D[  2]
+AR: 002
+PC: 002
+DR: 0f0f
+AC: 0011
+IR: 1009
+------------------------------------------------
+At: T[          4]
+At: D[128]
+AR: 002
+PC: 003
+DR: 0f0f
+AC: 0011
+IR: 7200
+------------------------------------------------
+At: T[          5]
+At: D[128]
+AR: 200
+PC: 003
+DR: 0f0f
+AC: 0011
+IR: 7200
+------------------------------------------------
+At: T[          1]
+At: D[128]
+AR: 200
+PC: 003
+DR: 0f0f
+AC: ffee
+IR: 7200
+------------------------------------------------
+At: T[          2]
+At: D[128]
+AR: 200
+PC: 003
+DR: 0f0f
+AC: ffee
+IR: 7200
+------------------------------------------------
+At: T[          3]
+At: D[128]
+AR: 003
+PC: 003
+DR: 0f0f
+AC: ffee
+IR: 7200
+------------------------------------------------
+At: T[          4]
+At: D[  8]
+AR: 003
+PC: 004
+DR: 0f0f
+AC: ffee
+IR: 300c
+------------------------------------------------
+At: T[          5]
+At: D[  8]
+AR: 00c
+PC: 004
+DR: 0f0f
+AC: ffee
+IR: 300c
+------------------------------------------------
+At: T[          6]
+At: D[  8]
+AR: 00c
+PC: 004
+DR: 0f0f
+AC: ffee
+IR: 300c
+------------------------------------------------
+At: T[          1]
+At: D[  8]
+AR: 00c
+PC: 004
+DR: 0f0f
+AC: ffee
+IR: 300c
+------------------------------------------------
+At: T[          2]
+At: D[  8]
+AR: 00c
+PC: 004
+DR: 0f0f
+AC: ffee
+IR: 300c
+------------------------------------------------
+At: T[          3]
+At: D[  8]
+AR: 004
+PC: 004
+DR: 0f0f
+AC: ffee
+IR: 300c
+------------------------------------------------
+At: T[          4]
+At: D[ 64]
+AR: 004
+PC: 005
+DR: 0f0f
+AC: ffee
+IR: 6020
+------------------------------------------------
+At: T[          5]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0f0f
+AC: ffee
+IR: 6020
+------------------------------------------------
+At: T[          6]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0f0f
+AC: ffee
+IR: 6020
+------------------------------------------------
+At: T[          7]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0000
+AC: ffee
+IR: 6020
+------------------------------------------------
+At: T[          8]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0001
+AC: ffef
+IR: 6020
+------------------------------------------------
+At: T[          1]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0001
+AC: ffef
+IR: 6020
+------------------------------------------------
+At: T[          2]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0001
+AC: ffef
+IR: 6020
+------------------------------------------------
+At: T[          3]
+At: D[ 64]
+AR: 005
+PC: 005
+DR: 0001
+AC: ffef
+IR: 6020
+------------------------------------------------
+At: T[          4]
+At: D[128]
+AR: 005
+PC: 006
+DR: 0001
+AC: ffef
+IR: 7400
+------------------------------------------------
+At: T[          5]
+At: D[128]
+AR: 400
+PC: 006
+DR: 0001
+AC: ffef
+IR: 7400
+------------------------------------------------
+At: T[          1]
+At: D[128]
+AR: 400
+PC: 006
+DR: 0001
+AC: ffef
+IR: 7400
+------------------------------------------------
+At: T[          2]
+At: D[128]
+AR: 400
+PC: 006
+DR: 0001
+AC: ffef
+IR: 7400
+------------------------------------------------
+At: T[          3]
+At: D[128]
+AR: 006
+PC: 006
+DR: 0001
+AC: ffef
+IR: 7400
+------------------------------------------------
+FATAL_ERROR: Iteration limit 10000 is reached. Possible zero delay oscillation detected where simulation time can not advance. Please check your source code. Note that the iteration limit can be changed using switch -maxdeltaid.
+Time: 405 ns  Iteration: 10000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mano_basic_computer_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1224.309 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation -simset [get_filesets sim_2 ]
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.sim/sim_2/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_2'
+INFO: [SIM-utils-54] Inspecting design source files for 'mano_basic_computer_tb' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.sim/sim_2/behav/xsim'
+"xvlog --incr --relax -prj mano_basic_computer_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/Register_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_12
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/reg_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/selection_line.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module selection_line
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/sequence_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sequence_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/Mano Basic Computer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mano_basic_computer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/adder_and_logic_circuit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_and_logic_circuit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sim_2/new/instruction_1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mano_basic_computer_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.sim/sim_2/behav/xsim'
+"xelab -wto 912a2e6ed4814d38b0b17adffd410bbc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mano_basic_computer_tb_behav xil_defaultlib.mano_basic_computer_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 912a2e6ed4814d38b0b17adffd410bbc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mano_basic_computer_tb_behav xil_defaultlib.mano_basic_computer_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 16 for port 'b' [C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/Mano Basic Computer.v:95]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.decoder
+Compiling module xil_defaultlib.reg_12
+Compiling module xil_defaultlib.reg_16
+Compiling module xil_defaultlib.Mem
+Compiling module xil_defaultlib.selection_line
+Compiling module xil_defaultlib.adder_and_logic_circuit
+Compiling module xil_defaultlib.sequence_counter
+Compiling module xil_defaultlib.mano_basic_computer
+Compiling module xil_defaultlib.mano_basic_computer_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mano_basic_computer_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.sim/sim_2/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mano_basic_computer_tb_behav -key {Behavioral:sim_2:Functional:mano_basic_computer_tb} -tclbatch {mano_basic_computer_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source mano_basic_computer_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+At: T[          0]
+At: D[  1]
+AR: 000
+PC: 000
+DR: 0000
+AC: 0000
+IR: 0000
+E: 0
+------------------------------------------------
+At: T[          1]
+At: D[  1]
+AR: 000
+PC: 000
+DR: 0000
+AC: 0000
+IR: 0000
+E: 0
+------------------------------------------------
+At: T[          2]
+At: D[  1]
+AR: 000
+PC: 000
+DR: 0000
+AC: 0000
+IR: 0000
+E: 0
+------------------------------------------------
+At: T[          3]
+At: D[  4]
+AR: 000
+PC: 001
+DR: 0000
+AC: 0000
+IR: a00b
+E: 0
+------------------------------------------------
+At: T[          4]
+At: D[  4]
+AR: 00b
+PC: 001
+DR: 0000
+AC: 0000
+IR: a00b
+E: 0
+------------------------------------------------
+At: T[          5]
+At: D[  4]
+AR: 00a
+PC: 001
+DR: 0000
+AC: 0000
+IR: a00b
+E: 0
+------------------------------------------------
+At: T[          6]
+At: D[  4]
+AR: 00a
+PC: 001
+DR: f102
+AC: 0000
+IR: a00b
+E: 0
+------------------------------------------------
+At: T[          0]
+At: D[  4]
+AR: 00a
+PC: 001
+DR: f102
+AC: f102
+IR: a00b
+E: 0
+------------------------------------------------
+At: T[          1]
+At: D[  4]
+AR: 00a
+PC: 001
+DR: f102
+AC: f102
+IR: a00b
+E: 0
+------------------------------------------------
+At: T[          2]
+At: D[  4]
+AR: 001
+PC: 001
+DR: f102
+AC: f102
+IR: a00b
+E: 0
+------------------------------------------------
+At: T[          3]
+At: D[  2]
+AR: 001
+PC: 002
+DR: f102
+AC: f102
+IR: 1009
+E: 1
+------------------------------------------------
+At: T[          4]
+At: D[  2]
+AR: 009
+PC: 002
+DR: f102
+AC: f102
+IR: 1009
+E: 1
+------------------------------------------------
+At: T[          5]
+At: D[  2]
+AR: 009
+PC: 002
+DR: f102
+AC: f102
+IR: 1009
+E: 1
+------------------------------------------------
+At: T[          6]
+At: D[  2]
+AR: 009
+PC: 002
+DR: 0f0f
+AC: f102
+IR: 1009
+E: 1
+------------------------------------------------
+At: T[          0]
+At: D[  2]
+AR: 009
+PC: 002
+DR: 0f0f
+AC: 0011
+IR: 1009
+E: 0
+------------------------------------------------
+At: T[          1]
+At: D[  2]
+AR: 009
+PC: 002
+DR: 0f0f
+AC: 0011
+IR: 1009
+E: 0
+------------------------------------------------
+At: T[          2]
+At: D[  2]
+AR: 002
+PC: 002
+DR: 0f0f
+AC: 0011
+IR: 1009
+E: 0
+------------------------------------------------
+At: T[          3]
+At: D[128]
+AR: 002
+PC: 003
+DR: 0f0f
+AC: 0011
+IR: 7200
+E: 0
+------------------------------------------------
+At: T[          4]
+At: D[128]
+AR: 200
+PC: 003
+DR: 0f0f
+AC: 0011
+IR: 7200
+E: 0
+------------------------------------------------
+At: T[          0]
+At: D[128]
+AR: 200
+PC: 003
+DR: 0f0f
+AC: ffee
+IR: 7200
+E: 0
+------------------------------------------------
+At: T[          1]
+At: D[128]
+AR: 200
+PC: 003
+DR: 0f0f
+AC: ffee
+IR: 7200
+E: 0
+------------------------------------------------
+At: T[          2]
+At: D[128]
+AR: 003
+PC: 003
+DR: 0f0f
+AC: ffee
+IR: 7200
+E: 0
+------------------------------------------------
+At: T[          3]
+At: D[  8]
+AR: 003
+PC: 004
+DR: 0f0f
+AC: ffee
+IR: 300c
+E: 0
+------------------------------------------------
+At: T[          4]
+At: D[  8]
+AR: 00c
+PC: 004
+DR: 0f0f
+AC: ffee
+IR: 300c
+E: 0
+------------------------------------------------
+At: T[          5]
+At: D[  8]
+AR: 00c
+PC: 004
+DR: 0f0f
+AC: ffee
+IR: 300c
+E: 0
+------------------------------------------------
+At: T[          0]
+At: D[  8]
+AR: 00c
+PC: 004
+DR: 0f0f
+AC: ffee
+IR: 300c
+E: 0
+------------------------------------------------
+At: T[          1]
+At: D[  8]
+AR: 00c
+PC: 004
+DR: 0f0f
+AC: ffee
+IR: 300c
+E: 0
+------------------------------------------------
+At: T[          2]
+At: D[  8]
+AR: 004
+PC: 004
+DR: 0f0f
+AC: ffee
+IR: 300c
+E: 0
+------------------------------------------------
+At: T[          3]
+At: D[ 64]
+AR: 004
+PC: 005
+DR: 0f0f
+AC: ffee
+IR: 6020
+E: 0
+------------------------------------------------
+At: T[          4]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0f0f
+AC: ffee
+IR: 6020
+E: 0
+------------------------------------------------
+At: T[          5]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0f0f
+AC: ffee
+IR: 6020
+E: 0
+------------------------------------------------
+At: T[          6]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0000
+AC: ffee
+IR: 6020
+E: 0
+------------------------------------------------
+At: T[          7]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0001
+AC: ffef
+IR: 6020
+E: 0
+------------------------------------------------
+At: T[          0]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0001
+AC: ffef
+IR: 6020
+E: 0
+------------------------------------------------
+At: T[          1]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0001
+AC: ffef
+IR: 6020
+E: 0
+------------------------------------------------
+At: T[          2]
+At: D[ 64]
+AR: 005
+PC: 005
+DR: 0001
+AC: ffef
+IR: 6020
+E: 0
+------------------------------------------------
+At: T[          3]
+At: D[128]
+AR: 005
+PC: 006
+DR: 0001
+AC: ffef
+IR: 7400
+E: 0
+------------------------------------------------
+At: T[          4]
+At: D[128]
+AR: 400
+PC: 006
+DR: 0001
+AC: ffef
+IR: 7400
+E: 0
+------------------------------------------------
+At: T[          0]
+At: D[128]
+AR: 400
+PC: 006
+DR: 0001
+AC: ffef
+IR: 7400
+E: 0
+------------------------------------------------
+At: T[          1]
+At: D[128]
+AR: 400
+PC: 006
+DR: 0001
+AC: ffef
+IR: 7400
+E: 0
+------------------------------------------------
+At: T[          2]
+At: D[128]
+AR: 006
+PC: 006
+DR: 0001
+AC: ffef
+IR: 7400
+E: 0
+------------------------------------------------
+FATAL_ERROR: Iteration limit 10000 is reached. Possible zero delay oscillation detected where simulation time can not advance. Please check your source code. Note that the iteration limit can be changed using switch -maxdeltaid.
+Time: 405 ns  Iteration: 10000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mano_basic_computer_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1224.309 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation -simset [get_filesets sim_2 ]
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.sim/sim_2/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_2'
+INFO: [SIM-utils-54] Inspecting design source files for 'mano_basic_computer_tb' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.sim/sim_2/behav/xsim'
+"xvlog --incr --relax -prj mano_basic_computer_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/Register_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_12
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/reg_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/selection_line.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module selection_line
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/sequence_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sequence_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/Mano Basic Computer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mano_basic_computer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/adder_and_logic_circuit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_and_logic_circuit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sim_2/new/instruction_1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mano_basic_computer_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.sim/sim_2/behav/xsim'
+"xelab -wto 912a2e6ed4814d38b0b17adffd410bbc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mano_basic_computer_tb_behav xil_defaultlib.mano_basic_computer_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 912a2e6ed4814d38b0b17adffd410bbc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mano_basic_computer_tb_behav xil_defaultlib.mano_basic_computer_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 16 for port 'b' [C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/Mano Basic Computer.v:95]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.decoder
+Compiling module xil_defaultlib.reg_12
+Compiling module xil_defaultlib.reg_16
+Compiling module xil_defaultlib.Mem
+Compiling module xil_defaultlib.selection_line
+Compiling module xil_defaultlib.adder_and_logic_circuit
+Compiling module xil_defaultlib.sequence_counter
+Compiling module xil_defaultlib.mano_basic_computer
+Compiling module xil_defaultlib.mano_basic_computer_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mano_basic_computer_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.sim/sim_2/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mano_basic_computer_tb_behav -key {Behavioral:sim_2:Functional:mano_basic_computer_tb} -tclbatch {mano_basic_computer_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source mano_basic_computer_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+At: T[          0]
+At: D[  1]
+AR: 000
+PC: 000
+DR: 0000
+AC: 0000
+IR: 0000
+E: 0
+------------------------------------------------
+At: T[          1]
+At: D[  1]
+AR: 000
+PC: 000
+DR: 0000
+AC: 0000
+IR: 0000
+E: 0
+------------------------------------------------
+At: T[          2]
+At: D[  1]
+AR: 000
+PC: 000
+DR: 0000
+AC: 0000
+IR: 0000
+E: 0
+------------------------------------------------
+At: T[          3]
+At: D[  4]
+AR: 000
+PC: 001
+DR: 0000
+AC: 0000
+IR: a00b
+E: 0
+------------------------------------------------
+At: T[          4]
+At: D[  4]
+AR: 00b
+PC: 001
+DR: 0000
+AC: 0000
+IR: a00b
+E: 0
+------------------------------------------------
+At: T[          5]
+At: D[  4]
+AR: 00a
+PC: 001
+DR: 0000
+AC: 0000
+IR: a00b
+E: 0
+------------------------------------------------
+At: T[          6]
+At: D[  4]
+AR: 00a
+PC: 001
+DR: 0102
+AC: 0000
+IR: a00b
+E: 0
+------------------------------------------------
+At: T[          0]
+At: D[  4]
+AR: 00a
+PC: 001
+DR: 0102
+AC: 0102
+IR: a00b
+E: 0
+------------------------------------------------
+At: T[          1]
+At: D[  4]
+AR: 00a
+PC: 001
+DR: 0102
+AC: 0102
+IR: a00b
+E: 0
+------------------------------------------------
+At: T[          2]
+At: D[  4]
+AR: 001
+PC: 001
+DR: 0102
+AC: 0102
+IR: a00b
+E: 0
+------------------------------------------------
+At: T[          3]
+At: D[  2]
+AR: 001
+PC: 002
+DR: 0102
+AC: 0102
+IR: 1009
+E: 0
+------------------------------------------------
+At: T[          4]
+At: D[  2]
+AR: 009
+PC: 002
+DR: 0102
+AC: 0102
+IR: 1009
+E: 0
+------------------------------------------------
+At: T[          5]
+At: D[  2]
+AR: 009
+PC: 002
+DR: 0102
+AC: 0102
+IR: 1009
+E: 0
+------------------------------------------------
+At: T[          6]
+At: D[  2]
+AR: 009
+PC: 002
+DR: 0f0f
+AC: 0102
+IR: 1009
+E: 0
+------------------------------------------------
+At: T[          0]
+At: D[  2]
+AR: 009
+PC: 002
+DR: 0f0f
+AC: 1011
+IR: 1009
+E: 0
+------------------------------------------------
+At: T[          1]
+At: D[  2]
+AR: 009
+PC: 002
+DR: 0f0f
+AC: 1011
+IR: 1009
+E: 0
+------------------------------------------------
+At: T[          2]
+At: D[  2]
+AR: 002
+PC: 002
+DR: 0f0f
+AC: 1011
+IR: 1009
+E: 0
+------------------------------------------------
+At: T[          3]
+At: D[128]
+AR: 002
+PC: 003
+DR: 0f0f
+AC: 1011
+IR: 7200
+E: 0
+------------------------------------------------
+At: T[          4]
+At: D[128]
+AR: 200
+PC: 003
+DR: 0f0f
+AC: 1011
+IR: 7200
+E: 0
+------------------------------------------------
+At: T[          0]
+At: D[128]
+AR: 200
+PC: 003
+DR: 0f0f
+AC: efee
+IR: 7200
+E: 0
+------------------------------------------------
+At: T[          1]
+At: D[128]
+AR: 200
+PC: 003
+DR: 0f0f
+AC: efee
+IR: 7200
+E: 0
+------------------------------------------------
+At: T[          2]
+At: D[128]
+AR: 003
+PC: 003
+DR: 0f0f
+AC: efee
+IR: 7200
+E: 0
+------------------------------------------------
+At: T[          3]
+At: D[  8]
+AR: 003
+PC: 004
+DR: 0f0f
+AC: efee
+IR: 300c
+E: 0
+------------------------------------------------
+At: T[          4]
+At: D[  8]
+AR: 00c
+PC: 004
+DR: 0f0f
+AC: efee
+IR: 300c
+E: 0
+------------------------------------------------
+At: T[          5]
+At: D[  8]
+AR: 00c
+PC: 004
+DR: 0f0f
+AC: efee
+IR: 300c
+E: 0
+------------------------------------------------
+At: T[          0]
+At: D[  8]
+AR: 00c
+PC: 004
+DR: 0f0f
+AC: efee
+IR: 300c
+E: 0
+------------------------------------------------
+At: T[          1]
+At: D[  8]
+AR: 00c
+PC: 004
+DR: 0f0f
+AC: efee
+IR: 300c
+E: 0
+------------------------------------------------
+At: T[          2]
+At: D[  8]
+AR: 004
+PC: 004
+DR: 0f0f
+AC: efee
+IR: 300c
+E: 0
+------------------------------------------------
+At: T[          3]
+At: D[ 64]
+AR: 004
+PC: 005
+DR: 0f0f
+AC: efee
+IR: 6020
+E: 0
+------------------------------------------------
+At: T[          4]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0f0f
+AC: efee
+IR: 6020
+E: 0
+------------------------------------------------
+At: T[          5]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0f0f
+AC: efee
+IR: 6020
+E: 0
+------------------------------------------------
+At: T[          6]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0000
+AC: efee
+IR: 6020
+E: 0
+------------------------------------------------
+At: T[          7]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0001
+AC: efef
+IR: 6020
+E: 0
+------------------------------------------------
+At: T[          0]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0001
+AC: efef
+IR: 6020
+E: 0
+------------------------------------------------
+At: T[          1]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0001
+AC: efef
+IR: 6020
+E: 0
+------------------------------------------------
+At: T[          2]
+At: D[ 64]
+AR: 005
+PC: 005
+DR: 0001
+AC: efef
+IR: 6020
+E: 0
+------------------------------------------------
+At: T[          3]
+At: D[128]
+AR: 005
+PC: 006
+DR: 0001
+AC: efef
+IR: 7400
+E: 0
+------------------------------------------------
+At: T[          4]
+At: D[128]
+AR: 400
+PC: 006
+DR: 0001
+AC: efef
+IR: 7400
+E: 0
+------------------------------------------------
+At: T[          0]
+At: D[128]
+AR: 400
+PC: 006
+DR: 0001
+AC: efef
+IR: 7400
+E: 0
+------------------------------------------------
+At: T[          1]
+At: D[128]
+AR: 400
+PC: 006
+DR: 0001
+AC: efef
+IR: 7400
+E: 0
+------------------------------------------------
+At: T[          2]
+At: D[128]
+AR: 006
+PC: 006
+DR: 0001
+AC: efef
+IR: 7400
+E: 0
+------------------------------------------------
+FATAL_ERROR: Iteration limit 10000 is reached. Possible zero delay oscillation detected where simulation time can not advance. Please check your source code. Note that the iteration limit can be changed using switch -maxdeltaid.
+Time: 405 ns  Iteration: 10000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mano_basic_computer_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1224.309 ; gain = 0.000
+remove_forces { {/mano_basic_computer_tb/common_bus} }
+current_wave_config {Untitled 4}
+Untitled 4
+add_wave {{/mano_basic_computer_tb/ManoBasicComputer/SequenceCounter}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.sim/sim_2/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_2'
+INFO: [SIM-utils-54] Inspecting design source files for 'mano_basic_computer_tb' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.sim/sim_2/behav/xsim'
+"xvlog --incr --relax -prj mano_basic_computer_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.sim/sim_2/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.sim/sim_2/behav/xsim'
+"xelab -wto 912a2e6ed4814d38b0b17adffd410bbc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mano_basic_computer_tb_behav xil_defaultlib.mano_basic_computer_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 912a2e6ed4814d38b0b17adffd410bbc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mano_basic_computer_tb_behav xil_defaultlib.mano_basic_computer_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 16 for port 'b' [C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.srcs/sources_1/new/Mano Basic Computer.v:95]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+At: T[          0]
+At: D[  1]
+AR: 000
+PC: 000
+DR: 0000
+AC: 0000
+IR: 0000
+E: 0
+------------------------------------------------
+At: T[          1]
+At: D[  1]
+AR: 000
+PC: 000
+DR: 0000
+AC: 0000
+IR: 0000
+E: 0
+------------------------------------------------
+At: T[          2]
+At: D[  1]
+AR: 000
+PC: 000
+DR: 0000
+AC: 0000
+IR: 0000
+E: 0
+------------------------------------------------
+At: T[          3]
+At: D[  4]
+AR: 000
+PC: 001
+DR: 0000
+AC: 0000
+IR: a00b
+E: 0
+------------------------------------------------
+At: T[          4]
+At: D[  4]
+AR: 00b
+PC: 001
+DR: 0000
+AC: 0000
+IR: a00b
+E: 0
+------------------------------------------------
+At: T[          5]
+At: D[  4]
+AR: 00a
+PC: 001
+DR: 0000
+AC: 0000
+IR: a00b
+E: 0
+------------------------------------------------
+At: T[          6]
+At: D[  4]
+AR: 00a
+PC: 001
+DR: 0102
+AC: 0000
+IR: a00b
+E: 0
+------------------------------------------------
+At: T[          0]
+At: D[  4]
+AR: 00a
+PC: 001
+DR: 0102
+AC: 0102
+IR: a00b
+E: 0
+------------------------------------------------
+At: T[          1]
+At: D[  4]
+AR: 00a
+PC: 001
+DR: 0102
+AC: 0102
+IR: a00b
+E: 0
+------------------------------------------------
+At: T[          2]
+At: D[  4]
+AR: 001
+PC: 001
+DR: 0102
+AC: 0102
+IR: a00b
+E: 0
+------------------------------------------------
+At: T[          3]
+At: D[  2]
+AR: 001
+PC: 002
+DR: 0102
+AC: 0102
+IR: 1009
+E: 0
+------------------------------------------------
+At: T[          4]
+At: D[  2]
+AR: 009
+PC: 002
+DR: 0102
+AC: 0102
+IR: 1009
+E: 0
+------------------------------------------------
+At: T[          5]
+At: D[  2]
+AR: 009
+PC: 002
+DR: 0102
+AC: 0102
+IR: 1009
+E: 0
+------------------------------------------------
+At: T[          6]
+At: D[  2]
+AR: 009
+PC: 002
+DR: 0f0f
+AC: 0102
+IR: 1009
+E: 0
+------------------------------------------------
+At: T[          0]
+At: D[  2]
+AR: 009
+PC: 002
+DR: 0f0f
+AC: 1011
+IR: 1009
+E: 0
+------------------------------------------------
+At: T[          1]
+At: D[  2]
+AR: 009
+PC: 002
+DR: 0f0f
+AC: 1011
+IR: 1009
+E: 0
+------------------------------------------------
+At: T[          2]
+At: D[  2]
+AR: 002
+PC: 002
+DR: 0f0f
+AC: 1011
+IR: 1009
+E: 0
+------------------------------------------------
+At: T[          3]
+At: D[128]
+AR: 002
+PC: 003
+DR: 0f0f
+AC: 1011
+IR: 7200
+E: 0
+------------------------------------------------
+At: T[          4]
+At: D[128]
+AR: 200
+PC: 003
+DR: 0f0f
+AC: 1011
+IR: 7200
+E: 0
+------------------------------------------------
+At: T[          0]
+At: D[128]
+AR: 200
+PC: 003
+DR: 0f0f
+AC: efee
+IR: 7200
+E: 0
+------------------------------------------------
+At: T[          1]
+At: D[128]
+AR: 200
+PC: 003
+DR: 0f0f
+AC: efee
+IR: 7200
+E: 0
+------------------------------------------------
+At: T[          2]
+At: D[128]
+AR: 003
+PC: 003
+DR: 0f0f
+AC: efee
+IR: 7200
+E: 0
+------------------------------------------------
+At: T[          3]
+At: D[  8]
+AR: 003
+PC: 004
+DR: 0f0f
+AC: efee
+IR: 300c
+E: 0
+------------------------------------------------
+At: T[          4]
+At: D[  8]
+AR: 00c
+PC: 004
+DR: 0f0f
+AC: efee
+IR: 300c
+E: 0
+------------------------------------------------
+At: T[          5]
+At: D[  8]
+AR: 00c
+PC: 004
+DR: 0f0f
+AC: efee
+IR: 300c
+E: 0
+------------------------------------------------
+At: T[          0]
+At: D[  8]
+AR: 00c
+PC: 004
+DR: 0f0f
+AC: efee
+IR: 300c
+E: 0
+------------------------------------------------
+At: T[          1]
+At: D[  8]
+AR: 00c
+PC: 004
+DR: 0f0f
+AC: efee
+IR: 300c
+E: 0
+------------------------------------------------
+At: T[          2]
+At: D[  8]
+AR: 004
+PC: 004
+DR: 0f0f
+AC: efee
+IR: 300c
+E: 0
+------------------------------------------------
+At: T[          3]
+At: D[ 64]
+AR: 004
+PC: 005
+DR: 0f0f
+AC: efee
+IR: 6020
+E: 0
+------------------------------------------------
+At: T[          4]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0f0f
+AC: efee
+IR: 6020
+E: 0
+------------------------------------------------
+At: T[          5]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0f0f
+AC: efee
+IR: 6020
+E: 0
+------------------------------------------------
+At: T[          6]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0000
+AC: efee
+IR: 6020
+E: 0
+------------------------------------------------
+At: T[          7]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0001
+AC: efef
+IR: 6020
+E: 0
+------------------------------------------------
+At: T[          0]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0001
+AC: efef
+IR: 6020
+E: 0
+------------------------------------------------
+At: T[          1]
+At: D[ 64]
+AR: 020
+PC: 005
+DR: 0001
+AC: efef
+IR: 6020
+E: 0
+------------------------------------------------
+At: T[          2]
+At: D[ 64]
+AR: 005
+PC: 005
+DR: 0001
+AC: efef
+IR: 6020
+E: 0
+------------------------------------------------
+At: T[          3]
+At: D[128]
+AR: 005
+PC: 006
+DR: 0001
+AC: efef
+IR: 7400
+E: 0
+------------------------------------------------
+At: T[          4]
+At: D[128]
+AR: 400
+PC: 006
+DR: 0001
+AC: efef
+IR: 7400
+E: 0
+------------------------------------------------
+At: T[          0]
+At: D[128]
+AR: 400
+PC: 006
+DR: 0001
+AC: efef
+IR: 7400
+E: 0
+------------------------------------------------
+At: T[          1]
+At: D[128]
+AR: 400
+PC: 006
+DR: 0001
+AC: efef
+IR: 7400
+E: 0
+------------------------------------------------
+At: T[          2]
+At: D[128]
+AR: 006
+PC: 006
+DR: 0001
+AC: efef
+IR: 7400
+E: 0
+------------------------------------------------
+FATAL_ERROR: Iteration limit 10000 is reached. Possible zero delay oscillation detected where simulation time can not advance. Please check your source code. Note that the iteration limit can be changed using switch -maxdeltaid.
+Time: 405 ns  Iteration: 10000
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1224.309 ; gain = 0.000
+current_wave_config {Untitled 4}
+Untitled 4
+add_wave {{/mano_basic_computer_tb/ManoBasicComputer/SequenceCounter}} 
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May 16 01:51:15 2023...

@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue May 16 00:02:23 2023
+# Process ID: 28080
+# Current directory: C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27284 C:\Users\ItShop\OneDrive\Documents\Vivado\Mano_basic_computer\Mano_basic_computer.xpr
+# Log file: C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/vivado.log
+# Journal file: C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ItShop/OneDrive/Documents/Vivado/Mano_basic_computer/Mano_basic_computer.xpr
+launch_simulation -simset [get_filesets sim_2 ]
+source mano_basic_computer_tb.tcl
+close_sim
+launch_simulation -simset [get_filesets sim_2 ]
+source mano_basic_computer_tb.tcl
+close_sim
+launch_simulation -simset [get_filesets sim_2 ]
+source mano_basic_computer_tb.tcl
+close_sim
+launch_simulation -simset [get_filesets sim_2 ]
+source mano_basic_computer_tb.tcl
+remove_forces { {/mano_basic_computer_tb/common_bus} }
+current_wave_config {Untitled 4}
+add_wave {{/mano_basic_computer_tb/ManoBasicComputer/SequenceCounter}} 
+relaunch_sim
+current_wave_config {Untitled 4}
+add_wave {{/mano_basic_computer_tb/ManoBasicComputer/SequenceCounter}} 
+close_sim
